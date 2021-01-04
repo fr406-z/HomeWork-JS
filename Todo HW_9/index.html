@@ -1,0 +1,43 @@
+<DOCTYPE html!>
+
+    <head>
+        <title>Linda's To-Do List App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "Stylesheet" href = "css/todo.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+        
+     </head>
+
+    <body>
+
+        <div id = "todo">
+            <h1> Список моих дел <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
+
+            <input type = "text" placeholder="Добавить новое задание">
+
+            <ul class="todos">
+                
+                <li><span><i class="fas fa-trash-alt"></i></span>Go to  myitschool</li>
+            </ul>
+
+            <div id= "buttons">
+                <button class="save">Сахранить</button>
+                <button class="clear">Очистить</button>
+                <button class="tipBtn">Справка</button>
+            </div>
+        </div>
+
+        <div id = "overlay">
+           <a href="javascript:void(0)" class="closebtn">&times;</a>
+           <ul class="tips">
+            <li>Чтобы спрятать или показать поле ввода, кликните на карандаш</li>
+            <li>Для добавления списка дел напишите текст в поле ввода и нажмите Ввод</li>
+            <li>Чтобы удалить один пункт, наведите на него и нажмите на значок корзины</li>
+            <li>Чтобы удалить все списки дел, нажмите "Очистить"</li>
+            <li>Нажмите "Сохранить", чтобы сохранить список дел на потом</li>
+            </ul>
+            
+        </div>
+        <script src="Js/script.js"></script>
+    </body>
